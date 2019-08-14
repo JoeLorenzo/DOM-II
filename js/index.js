@@ -64,9 +64,8 @@ const islandGetawayBtn = document.querySelector('#islandGetawayBtn')
 
 
 document.addEventListener('keydown', (event) => {
-  if (event.key === 'f') {
-    event.key = "home"
-    // alert('The f key was pressed!')
+  if (event.key === 't') {
+     console.log('The t key was pressed!')
   }
 })
 
